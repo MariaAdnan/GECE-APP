@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:padding="30dp"
+    tools:context=".Options">
+
+  <LinearLayout
+      android:id="@+id/attendance_icon"
+      android:layout_width="160dp"
+      android:layout_height="155dp"
+      android:layout_marginStart="5dp"
+      android:layout_marginBottom="30dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/attendance_imageview"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/attendance"
+        tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/attendance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.5dp"
+            android:gravity="center"
+            android:text="Attendance"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:id="@+id/announcement_icon"
+      android:layout_width="160dp"
+      android:layout_height="155dp"
+      android:layout_marginStart="180dp"
+      android:layout_marginBottom="30dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/announcement_viewimage"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/comment"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/announcement_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:gravity="center"
+        android:text="Announcements"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/policies_icon"
+      android:layout_width="160dp"
+      android:layout_height="155dp"
+      android:layout_marginStart="180dp"
+      android:layout_marginBottom="30dp"
+      android:layout_marginTop="440dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/policies_imageview"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/announcement"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/policies_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:layout_marginStart="3dp"
+        android:gravity="center"
+        android:text="Policies"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/grades_icon"
+      android:layout_width="160dp"
+      android:layout_height="165dp"
+      android:layout_marginStart="180dp"
+      android:layout_marginBottom="30dp"
+      android:layout_marginTop="220dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/grades_imageview"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/academic"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/grades_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.5dp"
+        android:gravity="center"
+        android:text="Grades"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/complain_icon"
+      android:layout_width="160dp"
+      android:layout_height="155dp"
+      android:layout_marginStart="5dp"
+      android:layout_marginBottom="30dp"
+      android:layout_marginTop="220dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/complain_imageview"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/speaker"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/complain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:gravity="center"
+        android:text="Complain"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/about_icon"
+      android:layout_width="160dp"
+      android:layout_height="155dp"
+      android:layout_marginStart="5dp"
+      android:layout_marginBottom="30dp"
+      android:layout_marginTop="440dp"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/about_imageview"
+        android:layout_width="122dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="60dp"
+        android:contextClickable="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/info"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:gravity="center"
+        android:text="About"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+  </LinearLayout>
+
+
+  <Button
+      android:id="@+id/mainmenuback_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="130dp"
+      android:layout_marginEnd="130dp"
+      android:text="Back"
+      android:backgroundTint="#FFFFFF"
+      android:textColor="#141517"
+      android:padding="1dp"
+      android:layout_marginTop="620dp"
+      android:textSize="18sp"
+      tools:ignore="HardcodedText"/>
+
+
+</RelativeLayout>
+
+
+<!--  <LinearLayout-->
+
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_below="@id/first_row"-->
+<!--      android:layout_marginTop="389dp"-->
+<!--      android:gravity="center"-->
+<!--      android:orientation="horizontal">-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:src="@drawable/policy"-->
+<!--        tools:ignore="HardcodedText" />-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:src="@drawable/info" />-->
+
+<!--  </LinearLayout>-->
+
+
+

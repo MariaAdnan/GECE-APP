@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:padding="18dp"
+            android:text="GECE Portal App"
+            android:textColor="#050505"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/student_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#161617"
+            android:padding="18dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/Faculty_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            android:padding="18dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/Admin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#141517"
+            android:padding="18dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/portalscreen_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="600dp"
+        android:text="Back"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#141517"
+        android:padding="1dp"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+
+
+</RelativeLayout>
