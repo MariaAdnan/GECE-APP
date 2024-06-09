@@ -54,23 +54,12 @@
             android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="Login As Student"
             android:backgroundTint="#FFFFFF"
             android:textColor="#3B5AC8"
             android:padding="18dp"
             android:layout_marginTop="25dp"
             android:textSize="20sp"
-            tools:ignore="HardcodedText"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Social Login"
-            android:backgroundTint="#FFFFFF"
-            android:textColor="#ECECEC"
-            android:padding="18dp"
-            android:layout_marginTop="32dp"
-            android:textSize="18sp"
             tools:ignore="HardcodedText"/>
 
         <LinearLayout
@@ -79,20 +68,6 @@
             android:orientation="horizontal"
             android:layout_marginTop="8dp"
             android:gravity="center"/>
-
-        <ImageView
-            android:id="@+id/fb_button"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_margin="16dp"
-            android:src="@drawable/fb" />
-
-        <ImageView
-            android:id="@+id/google_button"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_margin="16dp"
-            android:src="@drawable/google" />
 
     </LinearLayout>
 

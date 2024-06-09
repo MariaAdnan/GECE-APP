@@ -16,7 +16,7 @@ class Options : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_options)
+        setContentView(R.layout.`thirdpage.xml`)
 
         val attendance_icon = findViewById<LinearLayout>(R.id.attendance_icon)
         val attendance_imageview = findViewById<ImageView>(R.id.attendance_imageview)

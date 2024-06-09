@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/announcement_icon2"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="HardcodedText">
+
+        <ImageView
+            android:id="@+id/announcement_viewimage2"
+            android:layout_width="122dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="60dp"
+            android:contextClickable="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/comment"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/announcement_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.5dp"
+            android:gravity="center"
+            android:text="No Announcements"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</RelativeLayout>

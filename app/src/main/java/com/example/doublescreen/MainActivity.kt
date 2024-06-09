@@ -6,42 +6,28 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.example.doublescreen.databinding.ActivityMainBinding
+//import com.example.doublescreen.databinding.ActivityMainBinding
 
 //import androidx.core.view.ViewCompat
 //import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityMainBinding
-
-    lateinit var usernameInput : EditText
-    lateinit var passwordInput : EditText
-    lateinit var loginbtn : Button
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        setContentView(R.layout.firstpage)
 
-
-//        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_main)
-
-        usernameInput = findViewById(R.id.username_input)
-        passwordInput = findViewById(R.id.password_input)
-        loginbtn = findViewById(R.id.login_button)
-
-        loginbtn.setOnClickListener {
-            val username = usernameInput.text.toString()
-            val password = passwordInput.text.toString()
-            Log.i("Test Credentials", "Username, $username and Password : $password")
-
-            val intent = Intent(this, MainMenu::class.java)
-            startActivity(intent)
+        val studentbutton = findViewById<Button>(R.id.student_button)
+        studentbutton.setOnClickListener {
+            Toast.makeText(this, "Student Button was clicked!", Toast.LENGTH_SHORT).show()
+//            val intent = Intent(this, Options::class.java) // This will take us to the screen/activity 'Options'
+//            startActivity(intent)
         }
 
     }
